@@ -1,0 +1,65 @@
+
+body{
+  background-image: url('avatar.jpg');
+  color: yellow;
+  font-family:'Press Start 2P', sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+  min-width: 350px;
+}
+main{
+  flex-direction: row;
+  display: flex;
+  margin: auto;
+}
+h2{
+    color: pink;
+}
+ul{
+  text-align: justify;
+}
+figure{
+  border: solid 1px white;
+  text-align: center;
+  margin-bottom: 20%;
+}
+section li{
+  box-shadow: 5px 2px red;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20%;
+}
+.conteneur{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.sidebar{
+  flex: 0.5;
+  width: 20%;
+  background-color: pink;
+}
+footer{
+  height: 20%;
+  background-color: orange;
+  padding: 10%;
+}
+
+@media (max-width: 900px) {
+  .sidebar{
+    display: none;
+  }
+  .conteneur{
+    width: 100%;
+  }
+  footer{
+    padding: 20%;
+  }
+  section{
+    flex-direction: column;
+  }
+}

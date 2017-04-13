@@ -13,7 +13,7 @@
   }
 }
 body{
-  background-image: url('avatar.jpg');
+  background-image: url('../media/avatar.jpg');
   color: yellow;
   font-family:'Press Start 2P', sans-serif;
   font-size: 1.2em;

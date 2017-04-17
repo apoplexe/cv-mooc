@@ -12,6 +12,25 @@
     transform: translateY(1200px);
   }
 }
+.form-control{
+  font-size: 0.8em;
+  color: #fd09db;
+  border-radius: 10px;
+}
+.form-control:focus{
+      box-shadow: 11px -8px 17px 0px rgba(0, 0, 0, 0.03), 0 0 8px rgba(45, 41, 38, 0.9);
+}
+.help-block {
+    color: #f6ff00;
+}
+input[type="submit"] {
+    color: #0088ff;
+}
+.change{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 body{
   background-image: url('../media/avatar.jpg');
   color: yellow;

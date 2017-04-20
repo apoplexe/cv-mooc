@@ -1,0 +1,55 @@
+{
+  "category" : [
+    {
+      "id": 1,
+      "name": "Compétences",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Html5",
+          "level": "skilled"
+        },
+        {
+          "id": 2,
+          "name": "Css3",
+          "level": "skilled"
+        },
+        {
+          "id": 3,
+          "name": "Javascript",
+          "level": "talented"
+        },
+        {
+          "id": 4,
+          "name": "AngularJs",
+          "level": "beginner"
+        },
+        {
+          "id": 5,
+          "name": "Python",
+          "level": "beginner"
+        },
+        {
+          "id": 6,
+          "name": "github",
+          "level": "skilled"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Activités",
+      "activities": [
+        {
+          "id": 1,
+          "name": "tennis de table"
+        },
+        {
+          "id": 2,
+          "name": "basket-ball"
+        }
+      ]
+    }
+  ]
+
+}

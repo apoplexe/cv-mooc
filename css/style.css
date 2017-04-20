@@ -12,6 +12,9 @@
     transform: translateY(1200px);
   }
 }
+.hide{
+  display: none;
+}
 .form-control{
   font-size: 0.8em;
   color: #fd09db;
@@ -23,6 +26,9 @@
 .help-block {
     color: #f6ff00;
 }
+article {
+    margin-right: 5em;
+}
 input[type="submit"] {
     color: #0088ff;
 }
@@ -30,6 +36,12 @@ input[type="submit"] {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+.newcolor{
+  background-color: red;
+}
+.turn{
+  transform: rotateY(0deg);
 }
 body{
   background-image: url('../media/avatar.jpg');
@@ -82,7 +94,7 @@ section{
   background-image: linear-gradient(rgba(233, 30, 99, 0.59) 6%, #FFEB3B 148%);
   margin: 0px;
 }
-.sidebar img:hover{
+.sidebar img:first-child:hover{
   animation: fallinpic 2s;
   animation-fill-mode: forwards;
 }

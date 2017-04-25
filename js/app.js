@@ -23,7 +23,7 @@ function  unElement(name, type, text, attribute, attributeValue, parent){
   this.type = type;
   this.text = text;
   this.attribute = attribute;
-  this.attributeValue = attributeValue
+  this.attributeValue = attributeValue;
 }
 
 footer.addEventListener("click", function () {

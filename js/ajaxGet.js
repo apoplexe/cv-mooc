@@ -6,13 +6,13 @@ ajaxGet(
     var skillsArticle = document.getElementById('skills');
     var object = data.category[0].skills;
     var ulSkills = document.getElementById('ul-skills');
-    var ulActivities = document. getElementById('ul-activities')
-    var titleA = document. getElementById('title-activities')
-    var titleS = document. getElementById('title-skills')
+    var ulActivities = document. getElementById('ul-activities');
+    var titleA = document. getElementById('title-activities');
+    var titleS = document. getElementById('title-skills');
     var object2 = data.category[1].activities;
 
-    titleS.textContent = data.category[0].name
-    titleA.textContent = data.category[1].name
+    titleS.textContent = data.category[0].name;
+    titleA.textContent = data.category[1].name;
 
     for (var skill in object) {
       if (object.hasOwnProperty(skill)) {

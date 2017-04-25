@@ -10,7 +10,7 @@ function ajaxGet(url, callback) {
     }
   });
   req.addEventListener("error", function(){
-    console.error("erreur du réseau sur" + url);
+    console.error("Erreur du réseau, veuillez vérifier votre connexion");
   }) ;
 
   req.send(null);
